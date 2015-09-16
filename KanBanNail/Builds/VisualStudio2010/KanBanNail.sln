@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{28AE2A1D-9149-B190-1DB8-C0B6768E06AE}") = "KanBanNail", "KanBanNail.vcxproj", "{F323F1EF-A8B3-5A15-67D1-58A21439D5C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F323F1EF-A8B3-5A15-67D1-58A21439D5C8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F323F1EF-A8B3-5A15-67D1-58A21439D5C8}.Debug|Win32.Build.0 = Debug|Win32
+		{F323F1EF-A8B3-5A15-67D1-58A21439D5C8}.Release|Win32.ActiveCfg = Release|Win32
+		{F323F1EF-A8B3-5A15-67D1-58A21439D5C8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

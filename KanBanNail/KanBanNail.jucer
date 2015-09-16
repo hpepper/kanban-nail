@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qKxKq4" name="KanBanNail" projectType="guiapp" version="0.1.0"
+              bundleIdentifier="com.yourcompany.KanBanNail" includeBinaryInAppConfig="1"
+              jucerVersion="3.2.0">
+  <MAINGROUP id="KYfsms" name="KanBanNail">
+    <GROUP id="{8590F3D5-0078-CFCD-4A1E-51046B4230AE}" name="Source">
+      <FILE id="v2cvb1" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="zIfDwU" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="FVadtp" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="KanBanNail"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="KanBanNail"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../opt/juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <XCODE_IPHONE targetFolder="Builds/iOS">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" iosCompatibility="default" isDebug="1" optimisation="1"
+                       targetName="KanBanNail"/>
+        <CONFIGURATION name="Release" iosCompatibility="default" isDebug="0" optimisation="3"
+                       targetName="KanBanNail"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../opt/juce/modules"/>
+      </MODULEPATHS>
+    </XCODE_IPHONE>
+    <VS2013 targetFolder="Builds/VisualStudio2013">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="KanBanNail"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="KanBanNail"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../opt/juce/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <VS2010 targetFolder="Builds/VisualStudio2010">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="KanBanNail"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="KanBanNail"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../opt/juce/modules"/>
+      </MODULEPATHS>
+    </VS2010>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="KanBanNail"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="KanBanNail"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../opt/juce/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <ANDROID targetFolder="Builds/Android" androidVersionCode="1" androidActivityClass="com.yourcompany.kanbannail.KanBanNail"
+             androidSDKPath="${user.home}/SDKs/android-sdk" androidNDKPath="${user.home}/SDKs/android-ndk"
+             androidMinimumSDK="10" androidInternetNeeded="1" androidKeyStore="${user.home}/.android/debug.keystore"
+             androidKeyStorePass="android" androidKeyAlias="androiddebugkey"
+             androidKeyAliasPass="android" androidCpp11="1">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" androidArchitectures="armeabi armeabi-v7a" isDebug="1"
+                       optimisation="1" targetName="KanBanNail"/>
+        <CONFIGURATION name="Release" androidArchitectures="armeabi armeabi-v7a" isDebug="0"
+                       optimisation="3" targetName="KanBanNail"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_video" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../opt/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../opt/juce/modules"/>
+      </MODULEPATHS>
+    </ANDROID>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
